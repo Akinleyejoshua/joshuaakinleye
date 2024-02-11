@@ -349,6 +349,7 @@ button:hover {
   -moz-border-radius: 3rem;
   -ms-border-radius: 3rem;
   -o-border-radius: 3rem;
+  font-size: 12px;
 }
 
 .item .content {
@@ -394,6 +395,8 @@ footer{
 
 .socials{
   padding: 1rem 3rem 0 3rem;
+  display: flex;
+  justify-content: center;
 }
 
 .socials a{
@@ -416,6 +419,10 @@ a:hover{
 
 .contacts{
   padding: 1rem 3rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contacts a{
@@ -445,12 +452,11 @@ a:hover{
     padding: 1rem 2rem;
   }
 
-  .socials a{
-    font-size: 20px
+  footer * {
+    font-size: 10px;
   }
 
   .contacts a{
-    font-size: 12px;
     padding: .0rem;
     background-color: transparent;
   }
@@ -472,7 +478,7 @@ a:hover{
 
   .item .content .tag {
     padding: 0.25rem 0.5rem;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .item .content h1 {
