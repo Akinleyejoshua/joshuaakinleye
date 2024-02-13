@@ -22,8 +22,8 @@ export const Experience = () => {
                 <h3>2022-2023</h3>
             </div>
             <div className="item">
-                <h2>BLNR</h2>
-                <p className="dim">Senior Backend Developer</p>
+                <h2>BLNR (Open Source)</h2>
+                <p className="dim">Senior Backend Developer </p>
                 <h3>2024 • Current</h3>
             </div>
 
