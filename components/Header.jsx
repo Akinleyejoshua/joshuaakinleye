@@ -1,14 +1,22 @@
 "use client"
 import { AiOutlineContacts, AiOutlineHome, AiOutlineLaptop, AiOutlineSetting } from "react-icons/ai";
 import { MenuBar } from "./MenuBar";
-import { useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export const Header = () => {
     const header = useRef(0);
 
-    // if (window?.scrollY > 10){
-    //     alert();
-    // }
+    useEffect(() => {
+        window.onscroll = () => {
+            if (window?.scrollY > 100){
+                header.current.className = "ontop"
+            } else {
+                header.current.className = ""
+
+            }
+        }
+    })
+   
     
     const [navBar, setNavBar] = useState(false);
     return <header ref={header}>

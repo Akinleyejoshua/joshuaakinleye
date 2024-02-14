@@ -1,5 +1,5 @@
 export const Hero = () => {
-    return <section className="hero bg">
+    return <section className="hero bg" id="home">
         <div className="content">
             <h1>Joshua Akinleye</h1>
             <div className="space"></div>
