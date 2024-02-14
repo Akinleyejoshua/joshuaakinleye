@@ -5,7 +5,8 @@ import Store from "@/src/img/store.png";
 import Screen from "@/src/img/screen.png";
 import Covid from "@/src/img/covid.png";
 import Face from "@/src/img/face.jpg";
-import Blnr from "@/src/img/brnl.png"
+import Blnr from "@/src/img/brnl.png";
+import Bot from "@/src/img/bot.png";
 
 export const Projects = () => {
     const webprojects = [
@@ -45,7 +46,7 @@ export const Projects = () => {
             img: Covid,
             name: "Covid 19 Diagnostics",
             github: null,
-            link: "",
+            link: "https://j-covidtest.netlify.app/",
             tags: ["Python", "JavaScript", "Tensorflow", "Pandas", "Numpy", "Computer Vision"]
         },
         {
@@ -55,6 +56,14 @@ export const Projects = () => {
             link: "https://facialanalysis.netlify.app/",
             tags: ["Python", "React", "Tensorflow", "Pandas", "Numpy", 'Object Detection']
         },
+        {
+            img: Bot,
+            name: "Chat Bot Assistant like GPT for HRs, Web Scraping, Code Fetching",
+            github: "https://github.com/Akinleyejoshua/-chatbot/tree/main",
+            link: "https://j-chatbot.netlify.app/",
+            tags: ["Python", "React", "Tensorflow", "Pandas", "Numpy", 'NLP']
+
+        }
 
     ]
     return <section className="projects" id="projects">

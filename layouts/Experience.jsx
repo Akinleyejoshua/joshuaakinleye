@@ -23,7 +23,7 @@ export const Experience = () => {
             </div>
             <div className="item">
                 <h2>BLNR (Open Source)</h2>
-                <p className="dim">Senior Backend Developer </p>
+                <p className="dim">Senior Backend Developer</p>
                 <h3>2024 • Current</h3>
             </div>
 

@@ -1,14 +1,20 @@
 "use client"
 import { AiOutlineContacts, AiOutlineHome, AiOutlineLaptop, AiOutlineSetting } from "react-icons/ai";
 import { MenuBar } from "./MenuBar";
-import { useState } from "react";
+import { useRef, useState } from "react";
 
 export const Header = () => {
+    const header = useRef(0);
+
+    // if (window?.scrollY > 10){
+    //     alert();
+    // }
+    
     const [navBar, setNavBar] = useState(false);
-    return <header>
+    return <header ref={header}>
         <nav>
             <div className="navbrand">
-                <a href="/">Josh.</a>
+                <a href="/" style={{fontWeight: 900}}>Josh.</a>
             </div>
 
             <div className="menu-btn cover" onClick={() => setNavBar(true)}>
