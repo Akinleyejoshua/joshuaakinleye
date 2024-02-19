@@ -1,5 +1,5 @@
 import "./globals.css";
-import "@fontsource/poppins/100.css";
+// import "@fontsource/poppins/100.css";
 
 export const metadata = {
   title: "Akinleye Joshua",

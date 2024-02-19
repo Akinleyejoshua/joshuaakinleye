@@ -15,14 +15,16 @@ export const Projects = () => {
             name: "BLNR Backend (Open Source Project)",
             github: null,
             link: "https://blnr-dashboard-jet.vercel.app/",
-            tags: ["Express", "MongoDB", "Nodejs", "React", "JWT", "API"]
+            tags: ["Express", "MongoDB", "Nodejs", "React", "JWT", "API"],
+            description: "This is an Open Sourced Project for a Startup, the backend has many endpoints both Login and Signup with JWT Authorization, its pretty secure."
         },
         {
             img: Twitter,
             name: "Twitter/X Clone",
             github: "https://github.com/Akinleyejoshua/twitter-clone-client",
             link: "http://x-clone-client-vercel.app",
-            tags: ["Nextjs", "TypeScript"]
+            tags: ["Nextjs", "TypeScript"],
+            description: "This Web Application was built using Nextjs Framework, it comprises of the frontend only"
         },
 
         {
@@ -30,14 +32,18 @@ export const Projects = () => {
             name: "WooCommerce Web App ",
             github: "https://github.com/Akinleyejoshua/uni-store",
             link: "http://uni-store.vercel.app",
-            tags: ["Nextjs", "MongoDB", "Nodejs", "API"]
+            tags: ["Nextjs", "MongoDB", "Nodejs", "API"],
+            description: "This Web Application was built using Nextjs and Nodejs Server, it comprises of frontend and backend, in this web app, you can add a product, list the products for buyers, add to cart, checkout and wait for delivery, it also have admin dashboard to monitor products and sales revenue"
+
         },
         {
             img: Screen,
             name: "SaaS for Screen Sharing",
             github: null,
             link: "http://screen-view.vercel.app",
-            tags: ["Nextjs", "Express", "MongoDB", "API", "Nodejs"]
+            tags: ["Nextjs", "Express", "MongoDB", "API", "Nodejs"],
+            description: "This Web Application was built using Nextjs, Nodejs, Express, MongoDB, this app can help you share streamed video content, uploading the content to your own personal cloud storage and sharing to any part of the world, nevertheless the Server is down due to Billing and Maintenance, you can only go through the frontend aspect only, you can also check my Linkedin for DEMO video of this app"
+
         }
     ]
 
@@ -47,21 +53,24 @@ export const Projects = () => {
             name: "Covid 19 Diagnostics",
             github: null,
             link: "https://j-covidtest.netlify.app/",
-            tags: ["Python", "JavaScript", "Tensorflow", "Pandas", "Numpy", "Computer Vision"]
+            tags: ["Python", "JavaScript", "Tensorflow", "Pandas", "Numpy", "Computer Vision"],
+            description: "This is a Covid-19 Detector for patients, i used pandas to prepare the datasets gotten from kaggle, i then trained the computer vision model using tensorflow, converted the model to JSON and finally deployed it on the web using Tensorflow.js using Javascript. the current version makes use X-ray Scans for detection"
         },
         {
             img: Face,
             name: "Facial Expression Detector V2",
             github: "https://github.com/Akinleyejoshua/facial-expression-v1",
             link: "https://facialanalysis.netlify.app/",
-            tags: ["Python", "React", "Tensorflow", "Pandas", "Numpy", 'Object Detection']
+            tags: ["Python", "React", "Tensorflow", "Pandas", "Numpy", 'Object Detection'],
+            description: "One of the most intersting project in worked on as a data scientist, the latter version which on the display was not deployed due to a crash on my system, so i lost the files, but the first version was uploaded but the server is also down, i used object detection model to train the network and build the model."
         },
         {
             img: Bot,
             name: "Chat Bot Assistant like GPT for HRs, Web Scraping, Code Fetching",
             github: "https://github.com/Akinleyejoshua/-chatbot/tree/main",
             link: "https://j-chatbot.netlify.app/",
-            tags: ["Python", "React", "Tensorflow", "Pandas", "Numpy", 'NLP']
+            tags: ["Python", "React", "Tensorflow", "Pandas", "Numpy", 'NLP'],
+            description: "This is a bot that can help, scrape the web faster, retrieve code answers from github, stackoverflow and google, can help you locate places on the map, check my Linkedin Page for a the Demos for this app, it was built using Natural Language Processing"
 
         }
 
@@ -90,10 +99,13 @@ export const Projects = () => {
                         </div>
                         <div>
                             <h1>{item?.name}</h1>
+                            <div className="space"></div>
+                            <small className="dim">{item?.description}</small>
+                            <div className="space"></div>
                             <a target="blank" href={item?.link}><AiOutlineShareAlt /></a>
 
                             {item?.github !== null && <a target="blank" href={item?.github}><AiOutlineGithub /></a>}
-
+                            
                             <div className="grid-1">
                                 {item?.tags.map((item, i) => {
                                     return <small className="tag" key={i}>{item}</small>
@@ -106,6 +118,11 @@ export const Projects = () => {
             })}
 
         </div>
+        <div className="space"></div>
+        <div className="space"></div>
+        <div className="space"></div>
+        <div className="space"></div>
+
         <h1 className="row items-center self-center">
             <AiOutlineLaptop className="icon" />
             <div className="space"></div>
@@ -113,8 +130,8 @@ export const Projects = () => {
             <div className="space"></div>
             Projects
         </h1>
-
         <div className="space"></div>
+
         <h4 className="self-center dim">Machine Learning</h4>
         <div className="projects grid" id="ml">
 
@@ -128,10 +145,13 @@ export const Projects = () => {
                         </div>
                         <div>
                             <h1>{item?.name}</h1>
+                            <div className="space"></div>
+                            <small className="dim">{item?.description}</small>
+                            <div className="space"></div>
                             <a target="blank" href={item?.link}><AiOutlineShareAlt /></a>
 
                             {item?.github !== null && <a target="blank" href={item?.github}><AiOutlineGithub /></a>}
-
+                          
                             <div className="grid-1">
                                 {item?.tags.map((item, i) => {
                                     return <small className="tag" key={i}>{item}</small>

@@ -1,10 +1,11 @@
-import { AiOutlineLinkedin, AiOutlineMail, AiOutlinePhone, AiOutlineTwitter } from "react-icons/ai"
+import { AiOutlineLinkedin, AiOutlineMail, AiOutlinePhone, AiOutlineTwitter, AiOutlineYoutube } from "react-icons/ai"
 
 export const Contact = () => {
     return <footer id="contact">
         <div className="socials row items-center">
             <a target="blank" href="https://twitter.com/Joshuaakinleye4"><AiOutlineTwitter/></a>
             <a target="blank" href=""><AiOutlineLinkedin/></a>
+            <a target="blank" href=""><AiOutlineYoutube/></a>
         </div>
         <div className="contacts">
             <a target="blank" href="mailto:akinleyejoshua.dev@gmail.com" className="row items-center">
