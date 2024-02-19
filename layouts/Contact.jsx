@@ -3,27 +3,23 @@ import { AiOutlineLinkedin, AiOutlineMail, AiOutlinePhone, AiOutlineTwitter, AiO
 export const Contact = () => {
     return <footer id="contact">
         <div className="socials row items-center">
-            <a target="blank" href="https://twitter.com/Joshuaakinleye4"><AiOutlineTwitter/></a>
-            <a target="blank" href=""><AiOutlineLinkedin/></a>
-            <a target="blank" href=""><AiOutlineYoutube/></a>
+            <a target="blank" href="https://twitter.com/Joshuaakinleye4"><AiOutlineTwitter /></a>
+            <a target="blank" href=""><AiOutlineLinkedin /></a>
+            <a target="blank" href=""><AiOutlineYoutube /></a>
         </div>
         <div className="contacts">
             <a target="blank" href="mailto:akinleyejoshua.dev@gmail.com" className="row items-center">
-                <AiOutlineMail className="icon"/>
+                <AiOutlineMail className="icon" />
                 <div className="space"></div>
-                akinleyejoshua.dev@gmail.com
+                Joshua
             </a>
             <div className="space"></div>
             <a target="blank" href="" className="row items-center">
-                <AiOutlinePhone className="icon"/>
+                <AiOutlinePhone className="icon" />
                 <div className="space"></div>
-                +(234) 08131519518
-            </a>
+           </a>
         </div>
 
-        <div className="copy">
-        Joshua Akinleye &copy; 2024
-
-        </div>
+        <div className="copy">Joshua Akinleye &copy; 2024</div>
     </footer>
 }
