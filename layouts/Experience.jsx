@@ -7,7 +7,7 @@ export const Experience = () => {
             <div className="space"></div>
             <div className="space"></div>
             <div className="space"></div>
-            Experiences
+           My Experiences
         </h1>
 
         <div className="experiences grid">

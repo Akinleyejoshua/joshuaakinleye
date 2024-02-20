@@ -62,7 +62,7 @@ export const Projects = () => {
             github: "https://github.com/Akinleyejoshua/facial-expression-v1",
             link: "https://facialanalysis.netlify.app/",
             tags: ["Python", "React", "Tensorflow", "Pandas", "Numpy", 'Object Detection'],
-            description: "One of the most intersting project in worked on as a data scientist, the latter version which on the display was not deployed due to a crash on my system, so i lost the files, but the first version was uploaded but the server is also down, i used object detection model to train the network and build the model."
+            description: "One of the most intersting project in worked on as a data scientist, the latter version which is the picture above was not deployed due to a crash on my system, so i lost the files, but the first version was uploaded but also the server is also down, i used object detection model to train the network and build the model."
         },
         {
             img: Bot,

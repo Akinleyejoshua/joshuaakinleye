@@ -31,7 +31,7 @@ export const Header = () => {
             </div>
 
             <div className="menu-btn cover" onClick={() => setNavBar(true)}>
-               <MenuBar/>
+               <MenuBar />
             </div>
 
             <div className={`${navBar ? "navlinks open": "navlinks"}`} ref={navlinks}>
