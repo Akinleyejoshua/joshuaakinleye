@@ -400,10 +400,6 @@ button:hover {
     -o-transform: rotate(-7deg);
   }
 
-  .hero .display {
-    flex-direction: column;
-  }
-
   .hero .img {
     width: 10rem;
     height: 10rem;
