@@ -37,7 +37,7 @@ export const Header = () => {
             <div className={`${navBar ? "navlinks open": "navlinks"}`} ref={navlinks}>
                 <div className="close-bar" onClick={() => setNavBar(false)}></div>
 
-                <div className="links">
+                <div className="links" onClick={() => setNavBar(false)}>
                     <a href="#home" className="cover row" title="Home">
                         <AiOutlineHome className="icon"/>
                         <div className="space"></div>
