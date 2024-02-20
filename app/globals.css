@@ -384,7 +384,11 @@ button:hover {
   }
 
   .hero .display {
-    padding: 2rem 0rem;
+    padding: 0;
+  }
+
+  .display .img{
+    display: none;
   }
 
   .rect {
