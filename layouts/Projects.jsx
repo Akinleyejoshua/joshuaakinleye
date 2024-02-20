@@ -108,7 +108,7 @@ export const Projects = () => {
 
                             <div className="grid-3">
                                 {item?.tags.map((item, i) => {
-                                    return <small className="tag" key={i}>{item}</small>
+                                    return <small className="tag" key={i}>#{item}</small>
                                 })}
                             </div>
                         </div>
@@ -150,7 +150,7 @@ export const Projects = () => {
 
                             <div className="grid-3">
                                 {item?.tags.map((item, i) => {
-                                    return <small className="tag" key={i}>{item}</small>
+                                    return <small className="tag" key={i}>#{item}</small>
                                 })}
                             </div>
                         </div>
