@@ -32,7 +32,6 @@ body {
     ),
     radial-gradient(at 50% 0%, rgb(190, 43, 43) 0, transparent 50%),
     radial-gradient(at 100% 0%, rgb(44, 84, 216) 0, transparent 50%);
-  transition: 1s;
 }
 
 main {
