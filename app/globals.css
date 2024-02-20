@@ -174,7 +174,7 @@ a {
   }
 
   header nav {
-    padding: 5rem 1rem;
+    padding: 1rem 2rem;
   }
 
   .links a :is(.space, p) {
@@ -414,10 +414,6 @@ button:hover {
     font-size: 12px;
   }
 
-  header nav{
-    padding: 3rem 2rem;
-  }
-
   .experience{
     padding: 2rem 3rem 0 3rem;
   }
@@ -603,8 +599,8 @@ a:hover {
     padding: 1rem 2rem;
   }
 
-  * {
-    font-size: 10px;
+  footer *{
+    font-size: 12px;
   }
 
   .contacts a {
