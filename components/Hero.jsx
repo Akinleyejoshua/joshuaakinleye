@@ -24,8 +24,8 @@ export const Hero = () => {
             <div className="space"></div>
             <div className="space"></div>
 
-            <div className="actions row">
-            <a href="#contact" style={{marginRight: "1rem"}}>Yo, Get in touch</a>
+            <div className="actions grid" style={{gridGap: ".5rem"}}>
+            <a href="#contact">Yo, Get in touch</a>
             <a target="blank" href="https://matching.turing.com/developer-resume-preview/94fcd098ef28063a611a36b6c211b83394302204b3221e">Visit Turing Profile</a>
             </div>
             

@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Logo from "@/src/img/logo.jpg";
 
-export const Header = () => {
+export const Header = ({checkNavBar}) => {
     const header = useRef(0);
     const navlinks = useRef(0);
 
@@ -30,12 +30,11 @@ export const Header = () => {
                 </a>
             </div>
 
-            <div className="menu-btn cover" onClick={() => setNavBar(true)}>
+            <div className="menu-btn cover" onClick={() => {setNavBar(true); checkNavBar(true)}}>
                <MenuBar />
             </div>
 
             <div className={`${navBar ? "navlinks open": "navlinks"}`} ref={navlinks}>
-                <div className="close-bar" onClick={() => setNavBar(false)}></div>
 
                 <div className="links" onClick={() => setNavBar(false)}>
                     <a href="#home" className="cover row" title="Home">
@@ -59,6 +58,8 @@ export const Header = () => {
                         <p>Contact</p>
                     </a>
                 </div>
+                <div className="close-bar" onClick={() => setNavBar(false)}></div>
+
             </div>
         </nav>
     </header>
