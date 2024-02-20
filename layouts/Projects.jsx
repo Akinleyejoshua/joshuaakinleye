@@ -62,7 +62,7 @@ export const Projects = () => {
             github: "https://github.com/Akinleyejoshua/facial-expression-v1",
             link: "https://facialanalysis.netlify.app/",
             tags: ["Python", "React", "Tensorflow", "Pandas", "Numpy", 'Object Detection'],
-            description: "One of the most intersting project in worked on as a data scientist, the latter version which is the picture above was not deployed due to a crash on my system, so i lost the files, but the first version was uploaded but also the server is also down, i used object detection model to train the network and build the model."
+            description: "One of the most intersting project i worked on as a data scientist, the latter version which is the picture above was not deployed due to a crash on my system, so i lost the files, but the first version was uploaded but also the server is also down, i used object detection model to train the network and build the model."
         },
         {
             img: Bot,
@@ -87,7 +87,7 @@ export const Projects = () => {
         <div className="space"></div>
         <h4 className="self-center dim">Full Stack Development</h4>
 
-        <div className="projects grid" id="web">
+        <div className="projects grid-2" id="web">
 
             {webprojects.map((item, i) => {
                 return <div className="item" key={i}>
@@ -105,8 +105,8 @@ export const Projects = () => {
                             <a target="blank" href={item?.link}><AiOutlineShareAlt /></a>
 
                             {item?.github !== null && <a target="blank" href={item?.github}><AiOutlineGithub /></a>}
-                            
-                            <div className="grid-1">
+
+                            <div className="grid-3">
                                 {item?.tags.map((item, i) => {
                                     return <small className="tag" key={i}>{item}</small>
                                 })}
@@ -122,15 +122,11 @@ export const Projects = () => {
         <div className="space"></div>
         <div className="space"></div>
         <div className="space"></div>
-
-        <h1 className="row items-center self-center">
-            <AiOutlineLaptop className="icon" />
-            <div className="space"></div>
-            <div className="space"></div>
-            <div className="space"></div>
-            Projects
-        </h1>
         <div className="space"></div>
+        <div className="space"></div>
+        <div className="space"></div>
+        <div className="space"></div>
+      
 
         <h4 className="self-center dim">Machine Learning</h4>
         <div className="projects grid" id="ml">
@@ -151,8 +147,8 @@ export const Projects = () => {
                             <a target="blank" href={item?.link}><AiOutlineShareAlt /></a>
 
                             {item?.github !== null && <a target="blank" href={item?.github}><AiOutlineGithub /></a>}
-                          
-                            <div className="grid-1">
+
+                            <div className="grid-3">
                                 {item?.tags.map((item, i) => {
                                     return <small className="tag" key={i}>{item}</small>
                                 })}

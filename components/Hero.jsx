@@ -26,7 +26,7 @@ export const Hero = () => {
 
             <div className="actions row">
             <a href="#contact" style={{marginRight: "1rem"}}>Yo, Get in touch</a>
-            <a target="blank" href="https://matching.turing.com/developer-resume-preview/94fcd098ef28063a611a36b6c211b83394302204b3221e">Check Turing Profile</a>
+            <a target="blank" href="https://matching.turing.com/developer-resume-preview/94fcd098ef28063a611a36b6c211b83394302204b3221e">Visit Turing Profile</a>
             </div>
             
         </div>
