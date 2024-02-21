@@ -521,6 +521,12 @@ section {
   border: 2px solid transparent;
 }
 
+@media screen and (max-width: 1000px){
+  .experiences .item {
+    font-size: 12px;
+  }
+}
+
 .experience .item:hover,
 .projects .item:hover {
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
@@ -550,7 +556,7 @@ section {
 }
 
 #web, #ml{
-  padding: 6rem 0;
+  padding: 6rem 0 0 0;
   grid-template-columns: 1fr 1fr;
 
 }
@@ -668,7 +674,7 @@ footer h1{
   font-size: 30px;
   margin-right: 1rem;
   padding: 1rem;
-  background-color: rgb(34, 32, 32);
+  background-color: rgb(22, 21, 21);
   display: flex;
   justify-content: center;
   border-radius: 3rem;
