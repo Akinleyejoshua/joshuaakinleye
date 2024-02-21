@@ -8,10 +8,13 @@
   letter-spacing: 2px;
   font-weight: 100;
   scroll-behavior: smooth;
+
+  -webkit-tap-highlight-color: transparent;
+
 }
 
 body {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: white;
 }
 
@@ -110,11 +113,6 @@ header nav {
   -moz-border-radius: 3rem;
   -ms-border-radius: 3rem;
   -o-border-radius: 3rem;
-  
-}
-
-.links a :is(.space, p) {
-  display: none;
 }
 
 a {
@@ -131,11 +129,11 @@ a {
   text-decoration: none;
   backdrop-filter: blur(50px);
   opacity: 0.5;
-  border-radius: .25rem;
-  -webkit-border-radius: .25rem;
-  -moz-border-radius: .25rem;
-  -ms-border-radius: .25rem;
-  -o-border-radius: .25rem;
+  border-radius: 0.25rem;
+  -webkit-border-radius: 0.25rem;
+  -moz-border-radius: 0.25rem;
+  -ms-border-radius: 0.25rem;
+  -o-border-radius: 0.25rem;
 }
 
 .links .icon {
@@ -145,7 +143,8 @@ a {
 .links a {
   margin-right: 0rem;
   align-items: center;
-  padding: .5rem;
+  padding: 0.5rem;
+  text-transform: uppercase;
 }
 
 .menu-bar {
@@ -171,12 +170,12 @@ a {
   width: 1rem;
 }
 
-.navlinks{
+.navlinks {
   display: flex;
   flex-direction: row-reverse;
 }
 
-.navbar{
+.navbar {
   display: none;
 }
 
@@ -192,14 +191,14 @@ a {
   .navlinks {
     display: none;
   }
-  
+
   .links a:hover {
     border-radius: 0%;
     -webkit-border-radius: 0%;
     -moz-border-radius: 0%;
     -ms-border-radius: 0%;
     -o-border-radius: 0%;
-}
+  }
 
   .navbar {
     position: fixed;
@@ -223,7 +222,7 @@ a {
     -o-transition: 0.5s;
     z-index: 1000;
     background-color: transparent;
-}
+  }
 
   .navbar.open {
     transform: translateY(0rem);
@@ -235,7 +234,7 @@ a {
 
   .navbar .links {
     flex-direction: column;
-    flex: 70;
+    flex: 60;
     background-color: rgb(26, 24, 24);
     border-radius: 2rem 2rem 0rem 0rem;
     -webkit-border-radius: 2rem 2rem 0rem 0rem;
@@ -243,20 +242,20 @@ a {
     -ms-border-radius: 2rem 2rem 0rem 0rem;
     -o-border-radius: 2rem 2rem 0rem 0rem;
     z-index: 10000;
-}
+  }
 
   .links a {
     font-size: 12px;
     width: 100%;
     margin: 0;
-    padding: .5rem;
+    padding: 0.5rem;
     /* border-bottom: 1px solid rgba(255, 255, 255, 0.068); */
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  .links a .space{
+  .links a .space {
     padding: 1rem;
   }
 
@@ -267,14 +266,14 @@ a {
   .close-bar {
     background-color: rgba(0, 0, 0, 0);
     width: 100%;
-    flex: 30;
+    flex: 40;
     height: 100%;
     backdrop-filter: blur(5px);
   }
 
   .links a :is(.space, p) {
     display: initial;
-}
+  }
 }
 
 /* HERO section */
@@ -290,11 +289,11 @@ a {
   overflow: hidden;
 }
 
-.hero img{
+.hero img {
   margin-right: 5rem;
 }
 
-.hero a{
+.hero a {
   border: 1px solid whitesmoke;
   padding: 1rem;
   border-radius: 5rem;
@@ -324,17 +323,26 @@ a {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  /* width: 10rem;
-  height: 10rem; */
-  border: 2px solid white;
+  /*width: 10rem;
+  height: 10rem;
+  */border: 10px solid white;
+}
+
+.hero .img:hover{
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.281);
 }
 
 .hero h1 {
   font-size: 70px;
   font-weight: 900;
+  text-transform: uppercase;
 }
 
-.hero .content{
+.hero h2{
+  font-weight: 300;
+}
+
+.hero .content {
   padding: 5rem;
 }
 
@@ -387,11 +395,11 @@ button:hover {
     display: none;
   }
 
-  .hero .content{
+  .hero .content {
     padding: 3rem 2rem;
   }
 
-  .hero a{
+  .hero a {
     padding: 1rem;
     font-size: 10px;
     place-items: center;
@@ -401,7 +409,7 @@ button:hover {
     padding: 0;
   }
 
-  .display .img{
+  .display .img {
     display: none;
   }
 
@@ -427,14 +435,13 @@ button:hover {
     font-size: 12px;
   }
 
-  .experience{
+  .experience {
     padding: 2rem 3rem 0 3rem;
   }
 
-  .hero img{
+  .hero img {
     margin-right: 0rem;
   }
-  
 }
 
 .experience {
@@ -478,14 +485,13 @@ button:hover {
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
   border: 2px solid transparent;
-
 }
-.projects .item{
+.projects .item {
   border: 2px solid transparent;
-
 }
 
-.experience .item:hover, .projects .item:hover{
+.experience .item:hover,
+.projects .item:hover {
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   border: 2px solid white;
@@ -502,7 +508,6 @@ button:hover {
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   grid-gap: 2rem;
 }
-
 
 .projects {
   display: flex;
@@ -522,7 +527,6 @@ button:hover {
   -o-border-radius: 1rem;
   border-radius: 1rem;
   background-color: rgb(19, 18, 18);
-  
 }
 
 .item .img {
@@ -543,12 +547,12 @@ button:hover {
   -ms-border-radius: 3rem;
   -o-border-radius: 3rem;
   font-size: 12px;
-  margin-right: .25rem;
+  margin-right: 0.25rem;
   color: white;
 }
 
-@media screen and (max-width: 640px){
-  .item .content .tag{
+@media screen and (max-width: 640px) {
+  .item .content .tag {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
     grid-gap: 2rem;
@@ -574,7 +578,7 @@ button:hover {
 }
 
 .item .content a {
-  margin-right: .25rem;
+  margin-right: 0.25rem;
   font-size: 50px;
 }
 
@@ -611,14 +615,14 @@ footer {
   -o-border-radius: 3rem;
 }
 
-.aboutme, .contact{
+.aboutme,
+.contact {
   padding: 0 5rem 3rem 5rem;
 }
 
 a:hover {
   opacity: 0.5;
 }
-
 
 .copy {
   padding: 0rem 5rem 3rem 5rem;
@@ -633,11 +637,13 @@ a:hover {
   }
 
   .contact,
-  .socials, .aboutme, .copy {
+  .socials,
+  .aboutme,
+  .copy {
     padding: 1rem 2rem;
   }
 
-  footer *{
+  footer * {
     font-size: 13px;
   }
 

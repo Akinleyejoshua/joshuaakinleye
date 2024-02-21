@@ -81,7 +81,7 @@ export const Projects = () => {
             <div className="space"></div>
             <div className="space"></div>
             <div className="space"></div>
-            Projects
+           My Projects
         </h1>
 
         <div className="space"></div>

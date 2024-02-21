@@ -6,11 +6,6 @@ export const Hero = () => {
         <div className="row display">
         <div className="content">
             <h1>Joshua Akinleye</h1>
-            <div className="space"></div>
-            <div className="space"></div>
-            <div className="space"></div>
-            <div className="space"></div>
-            <div className="space"></div>
             <h2>I'm a Full Stack Developer & Machine Learning Engineer</h2>
             <div className="space"></div>
             <div className="space"></div>
@@ -24,7 +19,7 @@ export const Hero = () => {
             <div className="space"></div>
             <div className="space"></div>
 
-            <div className="actions grid" style={{gridGap: ".5rem"}}>
+            <div className="actions grid" style={{gridGap: "1rem"}}>
             <a href="#contact">Yo, Get in touch</a>
             <a target="blank" href="https://matching.turing.com/developer-resume-preview/94fcd098ef28063a611a36b6c211b83394302204b3221e">Visit Turing Profile</a>
             </div>
