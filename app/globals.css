@@ -482,16 +482,42 @@ section {
   margin: 1rem 0;
 }
 
+.experiences .num{
+  color: white;
+  position: absolute;
+  bottom: .5rem;
+  right: .5rem;
+  padding: .5rem;
+  background-color: black;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
 .experiences .item {
   padding: 3rem;
-  border-radius: 1rem;
+  border-radius: 1rem 1rem 2rem 1rem;
   background-color: rgb(14, 12, 12);
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
+  -webkit-border-radius: 1rem 1rem 2rem 1rem;
+  -moz-border-radius: 1rem 1rem 2rem 1rem;
+  -ms-border-radius: 1rem 1rem 2rem 1rem;
+  -o-border-radius: 1rem 1rem 2rem 1rem;
   border: 2px solid transparent;
+  position: relative;
 }
+
+.projects h4{
+  text-align: center;
+}
+
+
 .projects .item {
   border: 2px solid transparent;
 }
@@ -657,7 +683,11 @@ a:hover {
     font-size: 20px;
   }
   .experience {
-    padding: 0rem 2rem 0rem 2rem;
+    padding: 6rem 2rem 0rem 2rem;
+  }
+
+  .experiences .item{
+    padding: 1rem;
   }
 
   .copy {

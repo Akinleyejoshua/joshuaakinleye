@@ -85,7 +85,7 @@ export const Projects = () => {
         </h1>
 
         <div className="space"></div>
-        <h4 className="self-center dim">Full Stack Development</h4>
+        <h4 className="self-center dim">I have {webprojects.length} TOP Full Stack Development Project</h4>
 
         <div className="projects grid-2" id="web">
 
@@ -126,9 +126,10 @@ export const Projects = () => {
         <div className="space"></div>
         <div className="space"></div>
         <div className="space"></div>
+        <div className="space"></div>
       
 
-        <h4 className="self-center dim">Machine Learning</h4>
+        <h4 className="self-center dim">I have {mlprojects.length} TOP Machine Learning Projects</h4>
         <div className="projects grid" id="ml">
 
             {mlprojects.map((item, i) => {

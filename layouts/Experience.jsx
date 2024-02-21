@@ -18,7 +18,7 @@ export const Experience = () => {
             time: "2022 - 2023"
         },
         {
-            name: "C.A.C",
+            name: "BLNR",
             role: "Senior Backend Developer",
             time: "2024 • Current"
         }
@@ -34,10 +34,11 @@ export const Experience = () => {
 
         <div className="experiences grid">
             {experiences.map((item, i) => {
-                return <div className="item">
+                return <div className="item" key={i}>
                     <h2>{item.name}</h2>
                     <p className="dim">{item.role}</p>
                     <h3>{item.time}</h3>
+                    <div className="num">{i+1}</div>
                 </div>
             })}
 
