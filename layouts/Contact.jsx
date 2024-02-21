@@ -1,10 +1,10 @@
-import { AiOutlineIdcard, AiOutlineLinkedin, AiOutlineMail, AiOutlinePhone, AiOutlineTwitter, AiOutlineUser, AiOutlineYoutube } from "react-icons/ai"
+import { AiOutlineIdcard, AiOutlineLinkedin, AiOutlineMail, AiOutlinePhone, AiOutlineTwitter, AiOutlineUser, AiOutlineWhatsApp, AiOutlineYoutube } from "react-icons/ai"
 import { FaLink } from "react-icons/fa"
 
 export const Contact = () => {
     return <footer id="contact">
         <div className="socials col">
-            <h1 className="row items-center">Socials <div className="space"></div> <AiOutlineUser /></h1>
+            <h1 className="row items-center">• Socials</h1>
             <div className="space"></div>
             <div className="space"></div>
             <div className="space"></div>
@@ -25,7 +25,9 @@ export const Contact = () => {
                     </a>
                     <a title="Phone Number" target="blank" href="tel:2348131519518">
                         <AiOutlinePhone />
-
+                    </a>
+                    <a title="Phone Number" target="blank" href="https://wa.me/2348131519518">
+                        <AiOutlineWhatsApp />
                     </a>
                 </div>
             </div>
@@ -33,27 +35,31 @@ export const Contact = () => {
         </div>
 
         <div className="contact">
-            <h1 className="row items-center">Explore <div className="space"></div> <FaLink /></h1>
+            <h1 className="row items-center">• Explore</h1>
             <div className="space"></div>
             <div className="space"></div>
             <div className="space"></div>
 
-            <a href="https://j-resume.netlify.app">ML Projects</a>
+            <a href="https://j-resume.netlify.app">• ML Projects</a>
             <div className="space"></div>
-            <a href="https://akinleyejoshua.netlify.app">1st Portfolio</a>
+            <a href="https://akinleyejoshua.netlify.app">• 1st Portfolio</a>
+            <div className="space"></div>
+            <a href="https://matching.turing.com/developer-resume-preview/94fcd098ef28063a611a36b6c211b83394302204b3221e">• Turing Profile</a>
         </div>
 
 
         <div className="aboutme">
-            <h1 className="row items-center">About me <div className="space"></div> <AiOutlineIdcard /></h1>
+            <h1 className="row items-center">• About me</h1>
             <div className="space"></div>
             <div className="space"></div>
             <div className="space"></div>
-            As a Lead full-stack developer, I possess a diverse skill set, proficient in both front-end and back-end technologies. My expertise includes designing user interfaces, implementing server-side logic, and managing databases. With a solid understanding of web development frameworks and languages, I contribute to creating seamless and efficient applications. My problem-solving abilities and adaptability make me a valuable asset in the ever-evolving landscape of software development.
+            <p>
+                As a Lead full-stack developer, I possess a diverse skill set, proficient in both front-end and back-end technologies. My expertise includes designing user interfaces, implementing server-side logic, and managing databases. With a solid understanding of web development frameworks and languages, I contribute to creating seamless and efficient applications. My problem-solving abilities and adaptability make me a valuable asset in the ever-evolving landscape of software development.
+            </p>
         </div>
 
 
 
-        <div className="copy">Joshua Akinleye &copy; 2024</div>
+        <div className="copy"><a href="/">JOSHUA AKINLEYE</a> &copy; 2024 • The Creative</div>
     </footer>
 }

@@ -690,8 +690,17 @@ a:hover {
     padding: 1rem 2rem;
   }
 
-  footer * {
+  .socials a{
+    font-size: 25px;
+    padding: .5rem;
+  }
+
+  .contact a{
     font-size: 13px;
+  }
+
+  .aboutme p{
+    font-size: 12px;
   }
 
   footer h1 {
@@ -706,7 +715,8 @@ a:hover {
   }
 
   .copy {
-    font-size: 12px;
+    font-size: 15px;
+    text-transform: capitalize;
   }
 
   .grid-1 {
