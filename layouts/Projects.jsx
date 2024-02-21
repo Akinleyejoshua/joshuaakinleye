@@ -81,7 +81,7 @@ export const Projects = () => {
             <div className="space"></div>
             <div className="space"></div>
             <div className="space"></div>
-           My Projects
+            My Projects
         </h1>
 
         <div className="space"></div>
@@ -95,24 +95,27 @@ export const Projects = () => {
                         <Image alt="img" src={item?.img} className="img" />
                     </div>
                     <div className="content">
-                        <div className="space">
-                        </div>
-                        <div>
+                        <div className="space"></div>
+
+                        <div className="data">
                             <h1>{item?.name}</h1>
                             <div className="space"></div>
                             <small className="dim">{item?.description}</small>
                             <div className="space"></div>
-                            <a target="blank" href={item?.link}><AiOutlineShareAlt /></a>
-
-                            {item?.github !== null && <a target="blank" href={item?.github}><AiOutlineGithub /></a>}
-
-                            <div className="grid-3">
+                            <div className="flex-1">
                                 {item?.tags.map((item, i) => {
                                     return <small className="tag" key={i}>#{item}</small>
                                 })}
                             </div>
-                        </div>
+                            <div className="space"></div>
+                            <div className="space"></div>
 
+
+                        </div>
+                        <div className="actions">
+                            <a target="blank" href={item?.link}><AiOutlineShareAlt /></a>
+                            {item?.github !== null && <a target="blank" href={item?.github}><AiOutlineGithub /></a>}
+                        </div>
                     </div>
                 </div>
             })}
@@ -127,7 +130,7 @@ export const Projects = () => {
         <div className="space"></div>
         <div className="space"></div>
         <div className="space"></div>
-      
+
 
         <h4 className="self-center dim">I have {mlprojects.length} TOP Machine Learning Projects</h4>
         <div className="projects grid" id="ml">
@@ -140,22 +143,24 @@ export const Projects = () => {
                     <div className="content">
                         <div className="space">
                         </div>
-                        <div>
+                        <div className="data">
                             <h1>{item?.name}</h1>
                             <div className="space"></div>
                             <small className="dim">{item?.description}</small>
                             <div className="space"></div>
-                            <a target="blank" href={item?.link}><AiOutlineShareAlt /></a>
-
-                            {item?.github !== null && <a target="blank" href={item?.github}><AiOutlineGithub /></a>}
-
-                            <div className="grid-3">
+                            <div className="flex-1">
                                 {item?.tags.map((item, i) => {
                                     return <small className="tag" key={i}>#{item}</small>
                                 })}
                             </div>
-                        </div>
+                            <div className="space"></div>
+                            <div className="space"></div>
 
+                        </div>
+                        <div className="actions">
+                            <a target="blank" href={item?.link}><AiOutlineShareAlt /></a>
+                            {item?.github !== null && <a target="blank" href={item?.github}><AiOutlineGithub /></a>}
+                        </div>
                     </div>
                 </div>
             })}

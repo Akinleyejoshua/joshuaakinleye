@@ -10,7 +10,6 @@
   scroll-behavior: smooth;
 
   -webkit-tap-highlight-color: transparent;
-
 }
 
 body {
@@ -329,7 +328,7 @@ a {
   border: 10px solid white;
 }
 
-.hero .img:hover{
+.hero .img:hover {
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.281);
 }
 
@@ -339,7 +338,7 @@ a {
   text-transform: uppercase;
 }
 
-.hero h2{
+.hero h2 {
   font-weight: 300;
 }
 
@@ -482,12 +481,12 @@ section {
   margin: 1rem 0;
 }
 
-.experiences .num{
+.experiences .num {
   color: white;
   position: absolute;
-  bottom: .5rem;
-  right: .5rem;
-  padding: .5rem;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  padding: 0.5rem;
   background-color: black;
   border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -513,10 +512,9 @@ section {
   position: relative;
 }
 
-.projects h4{
+.projects h4 {
   text-align: center;
 }
-
 
 .projects .item {
   border: 2px solid transparent;
@@ -538,7 +536,7 @@ section {
 .grid-2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-  grid-gap: 2rem;
+  grid-gap: 5rem;
 }
 
 .projects {
@@ -563,33 +561,31 @@ section {
 
 .item .img {
   width: 100%;
-  border-radius: 1rem;
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
+  border-radius: 1rem 1rem 0 0;
+  -webkit-border-radius: 1rem 1rem 0 0;
+  -moz-border-radius: 1rem 1rem 0 0;
+  -ms-border-radius: 1rem 1rem 0 0;
+  -o-border-radius: 1rem 1rem 0 0;
+}
+
+.item .content .flex-1{
+  display: flex;
 }
 
 .item .content .tag {
-  opacity: 0.7;
-  /* padding: 0.5rem 1rem; */
+  padding: 0rem 1rem 0 0;
   border-radius: 3rem;
   -webkit-border-radius: 3rem;
   -moz-border-radius: 3rem;
   -ms-border-radius: 3rem;
   -o-border-radius: 3rem;
   font-size: 12px;
-  margin-right: 0.25rem;
   color: white;
+  /* text-decoration: underline; */
+  text-transform: uppercase;
 }
 
-@media screen and (max-width: 640px) {
-  .item .content .tag {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    grid-gap: 2rem;
-  }
-}
+
 
 .item .content {
   /*position: absolute;
@@ -601,7 +597,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 0rem;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
@@ -609,9 +605,28 @@ section {
   -o-border-radius: 1rem;
 }
 
+.item .actions{
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.349);
+  width: 100%;
+  border-radius: 0 0 1rem 1rem;
+  -webkit-border-radius: 0 0 1rem 1rem;
+  -moz-border-radius: 0 0 1rem 1rem;
+  -ms-border-radius: 0 0 1rem 1rem;
+  -o-border-radius: 0 0 1rem 1rem;
+  display: flex;
+}
+
+.item .data{
+  padding: 1rem;
+}
+
 .item .content a {
   margin-right: 0.25rem;
   font-size: 50px;
+  display: flex;
+  justify-content: flex-start;
+  place-items: center;
 }
 
 .content a:hover {
@@ -686,7 +701,7 @@ a:hover {
     padding: 6rem 2rem 0rem 2rem;
   }
 
-  .experiences .item{
+  .experiences .item {
     padding: 1rem;
   }
 
@@ -702,9 +717,15 @@ a:hover {
     padding: 6rem 1rem 1rem 1rem;
   }
 
+  .item .content .flex-1{
+    display: flex;
+    flex-direction: column;
+  }
+
   .item .content .tag {
-    padding: 0.25rem 0.5rem;
+    padding: 1rem 0rem 0 0;
     font-size: 10px;
+    flex-direction: column;
   }
 
   .item .content h1 {
