@@ -18,7 +18,7 @@ export const Experience = () => {
             time: "2022 - 2023"
         },
         {
-            name: "BLNR",
+            name: "BLNR (Open Source)",
             role: "Senior Backend Developer",
             time: "2024 • Current"
         }
