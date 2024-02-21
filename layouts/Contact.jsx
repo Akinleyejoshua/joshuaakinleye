@@ -4,7 +4,7 @@ import { FaLink } from "react-icons/fa"
 export const Contact = () => {
     return <footer id="contact">
         <div className="socials col">
-            <h1 className="row items-center">• Socials</h1>
+            <h1 className="row items-center">• Contacts</h1>
             <div className="space"></div>
             <div className="space"></div>
             <div className="space"></div>
@@ -40,11 +40,11 @@ export const Contact = () => {
             <div className="space"></div>
             <div className="space"></div>
 
-            <a href="https://j-resume.netlify.app">• ML Projects</a>
+            <a href="https://j-resume.netlify.app">ML Projects</a>
             <div className="space"></div>
-            <a href="https://akinleyejoshua.netlify.app">• 1st Portfolio</a>
+            <a href="https://akinleyejoshua.netlify.app">1st Portfolio</a>
             <div className="space"></div>
-            <a href="https://matching.turing.com/developer-resume-preview/94fcd098ef28063a611a36b6c211b83394302204b3221e">• Turing Profile</a>
+            <a href="https://matching.turing.com/developer-resume-preview/94fcd098ef28063a611a36b6c211b83394302204b3221e">Turing Profile</a>
         </div>
 
 

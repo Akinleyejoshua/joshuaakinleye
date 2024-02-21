@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { AiOutlineGithub, AiOutlineLaptop, AiOutlineShareAlt } from "react-icons/ai";
+import { AiOutlineGithub, AiOutlineLaptop, AiOutlinePlayCircle, AiOutlineShareAlt } from "react-icons/ai";
 import Twitter from "@/src/img/twitter.png";
 import Store from "@/src/img/store.png";
 import Screen from "@/src/img/screen.png";
@@ -42,7 +42,7 @@ export const Projects = () => {
             github: null,
             link: "http://screen-view.vercel.app",
             tags: ["Nextjs", "Express", "MongoDB", "API", "Nodejs"],
-            description: "This Web Application was built using Nextjs, Nodejs, Express, MongoDB, this app can help you share streamed video content, uploading the content to your own personal cloud storage and sharing to any part of the world, nevertheless the Server is down due to Billing and Maintenance, you can only go through the frontend aspect only, you can also check my Linkedin for DEMO video of this app"
+            description: "This Web Application was built using Nextjs, Nodejs, Express, MongoDB, this app can help you share streamed video content, uploading the content to your own personal cloud storage and sharing to any part of the world, you can also check my Youtube Channel for DEMO video of this app and others"
 
         }
     ]
@@ -87,7 +87,7 @@ export const Projects = () => {
         <div className="space"></div>
         <h4 className="self-center dim">I have {webprojects.length} TOP Full Stack Development Project</h4>
 
-        <div className="projects grid-2" id="web">
+        <div className="grid-2" id="web">
 
             {webprojects.map((item, i) => {
                 return <div className="item" key={i}>
@@ -102,7 +102,7 @@ export const Projects = () => {
                             <div className="space"></div>
                             <small className="dim">{item?.description}</small>
                             <div className="space"></div>
-                            <div className="flex-1">
+                            <div className="flex-1" title="Skill">
                                 {item?.tags.map((item, i) => {
                                     return <small className="tag" key={i}>#{item}</small>
                                 })}
@@ -113,8 +113,8 @@ export const Projects = () => {
 
                         </div>
                         <div className="actions">
-                            <a target="blank" href={item?.link}><AiOutlineShareAlt /></a>
-                            {item?.github !== null && <a target="blank" href={item?.github}><AiOutlineGithub /></a>}
+                            <a target="blank" title="Visit" href={item?.link}><AiOutlinePlayCircle /></a>
+                            {item?.github !== null && <a title="Repository"  target="blank" href={item?.github}><AiOutlineGithub /></a>}
                         </div>
                     </div>
                 </div>
@@ -133,7 +133,7 @@ export const Projects = () => {
 
 
         <h4 className="self-center dim">I have {mlprojects.length} TOP Machine Learning Projects</h4>
-        <div className="projects grid" id="ml">
+        <div className="grid" id="ml">
 
             {mlprojects.map((item, i) => {
                 return <div className="item" key={i}>
@@ -148,7 +148,7 @@ export const Projects = () => {
                             <div className="space"></div>
                             <small className="dim">{item?.description}</small>
                             <div className="space"></div>
-                            <div className="flex-1">
+                            <div className="flex-1" title="Skill">
                                 {item?.tags.map((item, i) => {
                                     return <small className="tag" key={i}>#{item}</small>
                                 })}
@@ -158,8 +158,8 @@ export const Projects = () => {
 
                         </div>
                         <div className="actions">
-                            <a target="blank" href={item?.link}><AiOutlineShareAlt /></a>
-                            {item?.github !== null && <a target="blank" href={item?.github}><AiOutlineGithub /></a>}
+                        <a target="blank" title="Visit" href={item?.link}><AiOutlinePlayCircle /></a>
+                            {item?.github !== null && <a title="Repository" target="blank" href={item?.github}><AiOutlineGithub /></a>}
                         </div>
                     </div>
                 </div>
