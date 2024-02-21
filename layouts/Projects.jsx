@@ -70,7 +70,7 @@ export const Projects = () => {
             github: "https://github.com/Akinleyejoshua/-chatbot/tree/main",
             link: "https://j-chatbot.netlify.app/",
             tags: ["Python", "React", "Tensorflow", "Pandas", "Numpy", 'NLP'],
-            description: "This is a bot that can help, scrape the web faster, retrieve code answers from github, stackoverflow and google, can help you locate places on the map, check my Linkedin Page for a the Demos for this app, it was built using Natural Language Processing"
+            description: "This is a bot that can help do anything automated on the web like conducting interviews for candidates, scrape the web faster, retrieve code answers from github, stackoverflow and google, can help you locate places on the map, check my Linkedin Page for a the Demos for this app, it was built using Natural Language Processing"
 
         }
 
