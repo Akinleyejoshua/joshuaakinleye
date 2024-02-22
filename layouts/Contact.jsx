@@ -1,4 +1,4 @@
-import { AiOutlineLinkedin, AiOutlineMail, AiOutlinePhone, AiOutlineTwitter,  AiOutlineWhatsApp, AiOutlineYoutube } from "react-icons/ai"
+import { AiOutlineGithub, AiOutlineLinkedin, AiOutlineMail, AiOutlinePhone, AiOutlineTwitter,  AiOutlineWhatsApp, AiOutlineYoutube } from "react-icons/ai"
 
 export const Contact = () => {
     return <footer id="contact">
@@ -25,8 +25,16 @@ export const Contact = () => {
                     <a title="Phone Number" target="blank" href="tel:2348131519518">
                         <AiOutlinePhone />
                     </a>
-                    <a title="Phone Number" target="blank" href="https://wa.me/2348131519518">
+                    <a title="Whatsapp Number" target="blank" href="https://wa.me/2348131519518">
                         <AiOutlineWhatsApp />
+                    </a>
+                </div>
+                <div className="space"></div>
+                <div className="space"></div>
+                <div className="space"></div>
+                <div className="row">
+                <a title="GitHub" target="blank" href="https://github.com/Akinleyejoshua">
+                        <AiOutlineGithub />
                     </a>
                 </div>
             </div>
@@ -38,7 +46,8 @@ export const Contact = () => {
             <div className="space"></div>
             <div className="space"></div>
             <div className="space"></div>
-
+            <a href="http://github.com/Akinleyejoshua" target="_blank" rel="noopener noreferrer">Github</a>
+            <div className="space"></div>
             <a href="https://j-resume.netlify.app">ML Projects</a>
             <div className="space"></div>
             <a href="https://akinleyejoshua.netlify.app">1st Portfolio</a>
