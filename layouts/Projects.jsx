@@ -25,6 +25,7 @@ export const Projects = () => {
             link: "http://x-clone-client-vercel.app",
             tags: ["Nextjs", "TypeScript"],
             description: "This Web Application was built using Nextjs Framework, it comprises of the frontend only",
+            youtube: "https://www.linkedin.com/posts/joshua-akinleye-9895b61ab_reactjs-nextjs-node-activity-7114638639124406272-cBWf?utm_source=share&utm_medium=member_desktop",
         },
 
         {
@@ -34,7 +35,7 @@ export const Projects = () => {
             link: "http://uni-store.vercel.app",
             tags: ["Nextjs", "MongoDB", "Nodejs", "API"],
             description: "This Web Application was built using Nextjs and Nodejs Server, it comprises of frontend and backend, in this web app, you can add a product, list the products for buyers, add to cart, checkout and wait for delivery, it also have admin dashboard to monitor products and sales revenue",
-
+            youtube: "https://www.linkedin.com/posts/joshua-akinleye-9895b61ab_ecommerce-onlineshopping-marketing-activity-7076451893803122688-5tlH?utm_source=share&utm_medium=member_desktop",
         },
         {
             img: Screen,
@@ -55,6 +56,7 @@ export const Projects = () => {
             link: "https://j-covidtest.netlify.app/",
             tags: ["Python", "JavaScript", "Tensorflow", "Pandas", "Numpy", "Computer Vision"],
             description: "This is a Covid-19 Detector for patients, i used pandas to prepare the datasets gotten from kaggle, i then trained the computer vision model using tensorflow, converted the model to JSON and finally deployed it on the web using Tensorflow.js using Javascript. the current version makes use X-ray Scans for detection",
+            youtube: "https://www.linkedin.com/posts/joshua-akinleye-9895b61ab_businessanalytics-engineering-medicalimaging-activity-6872266284881465345-iFDs?utm_source=share&utm_medium=member_desktop",
         },
         {
             img: Face,
@@ -71,7 +73,7 @@ export const Projects = () => {
             link: "https://j-chatbot.netlify.app/",
             tags: ["Python", "React", "Tensorflow", "Pandas", "Numpy", 'NLP'],
             description: "This is a bot that can help do anything automated on the web like conducting interviews for candidates, scrape the web faster, retrieve code answers from github, stackoverflow and google, can help you locate places on the map, check my Linkedin Page for a the Demos for this app, it was built using Natural Language Processing",
-
+            youtube: "https://www.linkedin.com/posts/joshua-akinleye-9895b61ab_model-accuracy-improved-activity-6885201362028756992-SiRS?utm_source=share&utm_medium=member_desktop",
         }
 
     ]
