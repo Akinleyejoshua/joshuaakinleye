@@ -1,10 +1,9 @@
-import { AiOutlineIdcard, AiOutlineLinkedin, AiOutlineMail, AiOutlinePhone, AiOutlineTwitter, AiOutlineUser, AiOutlineWhatsApp, AiOutlineYoutube } from "react-icons/ai"
-import { FaLink } from "react-icons/fa"
+import { AiOutlineLinkedin, AiOutlineMail, AiOutlinePhone, AiOutlineTwitter,  AiOutlineWhatsApp, AiOutlineYoutube } from "react-icons/ai"
 
 export const Contact = () => {
     return <footer id="contact">
         <div className="socials col">
-            <h1 className="row items-center">• Contacts</h1>
+            <h1 className="row items-center">Contacts</h1>
             <div className="space"></div>
             <div className="space"></div>
             <div className="space"></div>
@@ -35,7 +34,7 @@ export const Contact = () => {
         </div>
 
         <div className="contact">
-            <h1 className="row items-center">• Explore</h1>
+            <h1 className="row items-center">Explore</h1>
             <div className="space"></div>
             <div className="space"></div>
             <div className="space"></div>
@@ -49,7 +48,7 @@ export const Contact = () => {
 
 
         <div className="aboutme">
-            <h1 className="row items-center">• About me</h1>
+            <h1 className="row items-center">About me</h1>
             <div className="space"></div>
             <div className="space"></div>
             <div className="space"></div>

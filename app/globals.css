@@ -6,7 +6,7 @@
   margin: 0;
   font-family: "Poppins", sans-serif;
   letter-spacing: 2px;
-  font-weight: 100;
+  font-weight: 200;
   scroll-behavior: smooth;
 
   -webkit-tap-highlight-color: transparent;
@@ -286,6 +286,7 @@ a {
   backdrop-filter: blur(20px);
   position: relative;
   overflow: hidden;
+  text-align: center;
 }
 
 .hero img {
@@ -451,6 +452,16 @@ button:hover {
   flex-direction: column;
 }
 
+.experience .note{
+  padding: 3rem 0 ;
+  text-align: center;
+  font-size: 15px;
+}
+
+.note a{
+  text-decoration: underline;
+}
+
 .experience h1,
 .projects h1 {
   align-self: center;
@@ -467,7 +478,7 @@ button:hover {
 }
 
 .dim {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 section {
@@ -521,7 +532,7 @@ section {
   border: 2px solid transparent;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
   .experiences .item {
     font-size: 12px;
   }
@@ -551,14 +562,15 @@ section {
   flex-direction: column;
 }
 
-#web .item, #ml .item{
+#web .item,
+#ml .item {
   height: max-content;
 }
 
-#web, #ml{
+#web,
+#ml {
   padding: 6rem 0 0 0;
   grid-template-columns: 1fr 1fr;
-
 }
 
 .self-center {
@@ -585,7 +597,7 @@ section {
   height: 20rem;
 }
 
-.item .content .flex-1{
+.item .content .flex-1 {
   display: flex;
   flex-wrap: wrap;
 }
@@ -602,8 +614,6 @@ section {
   /* text-decoration: underline; */
   text-transform: uppercase;
 }
-
-
 
 .item .content {
   /*position: absolute;
@@ -623,7 +633,7 @@ section {
   -o-border-radius: 1rem;
 }
 
-.item .actions{
+.item .actions {
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.349);
   width: 100%;
@@ -635,13 +645,13 @@ section {
   display: flex;
 }
 
-.item .data{
+.item .data {
   padding: 1rem;
 }
 
 .item .content a {
-  margin-right: 0.25rem;
-  font-size: 50px;
+  margin-right: 1rem;
+  font-size: 30px;
   display: flex;
   justify-content: flex-start;
   place-items: center;
@@ -659,44 +669,48 @@ section {
 
 footer {
   background-color: rgba(22, 20, 20, 0);
+  padding: 6rem 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
 }
 
-.socials {
-  padding: 3rem 5rem;
-  /* justify-content: center; */
+.full-width {
+  width: 100%;
 }
 
-footer h1{
+footer h1 {
   font-weight: 300;
 }
 
 .socials a {
-  font-size: 30px;
+  font-size: 20px;
   margin-right: 1rem;
   padding: 1rem;
   background-color: rgb(22, 21, 21);
   display: flex;
   justify-content: center;
-  border-radius: 3rem;
-  -webkit-border-radius: 3rem;
-  -moz-border-radius: 3rem;
-  -ms-border-radius: 3rem;
-  -o-border-radius: 3rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
 
 .aboutme,
-.contact {
-  padding: 0 5rem 3rem 5rem;
+.contact,
+.socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+footer a, footer p{
+  opacity: .6;
 }
 
 a:hover {
-  opacity: 0.5;
-}
-
-.copy {
-  padding: 0rem 5rem 3rem 5rem;
-  /* background-color: rgb(14, 13, 13); */
-  /* text-align: center; */
+  opacity: 0.3;
 }
 
 @media screen and (max-width: 1000px) {
@@ -705,28 +719,27 @@ a:hover {
     height: max-content;
   }
 
-  #web, #ml{
+  #web,
+  #ml {
     grid-template-columns: 1fr;
   }
 
-  .contact,
-  .socials,
-  .aboutme,
-  .copy {
-    padding: 1rem 2rem;
-  }
-
-  .socials a{
+  .socials a {
     font-size: 25px;
-    padding: .5rem;
+    padding: 0.5rem;
   }
 
-  .contact a{
+  .contact a {
     font-size: 13px;
   }
 
-  .aboutme p{
+  .aboutme p {
     font-size: 12px;
+  }
+
+  footer {
+    padding: 3rem 2rem;
+    grid-template-columns: 1fr;
   }
 
   footer h1 {
@@ -753,7 +766,7 @@ a:hover {
     padding: 6rem 2rem 2rem 2rem;
   }
 
-  .item .content .flex-1{
+  .item .content .flex-1 {
     display: flex;
     flex-direction: column;
   }
