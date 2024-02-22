@@ -51,7 +51,7 @@ export const Experience = () => {
     that needed to be launched, thereby i collaborated with the I.T Team to foster clear communication
     on how the products meet clients expectation and help in solving business problems. 
     if this interest you based on my expertise kindly reach out to me through any of my <a href="#contact">contacts</a>, 
-    can't wait to drive your business solutions to it potentials for your business to gain marginal sales.
+    can't wait to drive your business solutions to it potentials for your business to gain marginal success.
     </p>
 </div>
     </section>
