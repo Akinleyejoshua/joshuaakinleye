@@ -161,7 +161,7 @@ export const Projects = () => {
 
                         </div>
                         <div className="actions">
-                            <a target="blank" title="Visit" href={item?.link}><AiOutlineLink /></a>
+                            {item?.link !== null && <a target="blank" title="Visit" href={item?.link}><AiOutlineLink /></a>}
                             {item?.github !== null && <a title="Repository" target="blank" href={item?.github}><AiOutlineGithub /></a>}
                             {item?.youtube !== undefined && <a title="Youtube DEMO" target="blank" href={item?.youtube}><AiOutlineYoutube /></a>}
 
