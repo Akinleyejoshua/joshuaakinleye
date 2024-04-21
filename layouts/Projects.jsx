@@ -70,7 +70,7 @@ export const Projects = () => {
             img: Bot,
             name: "Chat Bot Assistant like GPT for HRs, Web Scraping, Code Fetching",
             github: "https://github.com/Akinleyejoshua/-chatbot/tree/main",
-            link: "https://j-chatbot.netlify.app/",
+            link: null,
             tags: ["Python", "React", "Tensorflow", "Pandas", "Numpy", 'NLP'],
             description: "This is a bot that can help do anything automated on the web like conducting interviews for candidates, scrape the web faster, retrieve code answers from github, stackoverflow and google, can help you locate places on the map, check my Linkedin Page for a the Demos for this app, it was built using Natural Language Processing",
             youtube: "https://www.linkedin.com/posts/joshua-akinleye-9895b61ab_model-accuracy-improved-activity-6885201362028756992-SiRS?utm_source=share&utm_medium=member_desktop",
