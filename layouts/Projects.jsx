@@ -7,7 +7,7 @@ import Covid from "@/src/img/covid.png";
 import Face from "@/src/img/face.jpg";
 import Blnr from "@/src/img/brnl.png";
 import Bot from "@/src/img/bot.png";
-import LLM from "@/src/img/LLM.png";
+import LLM from "@/src/img/llm.png";
 
 export const Projects = () => {
     const webprojects = [
