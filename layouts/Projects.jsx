@@ -7,6 +7,7 @@ import Covid from "@/src/img/covid.png";
 import Face from "@/src/img/face.jpg";
 import Blnr from "@/src/img/brnl.png";
 import Bot from "@/src/img/bot.png";
+import LLM from "@/src/img/LLM.png";
 
 export const Projects = () => {
     const webprojects = [
@@ -74,6 +75,16 @@ export const Projects = () => {
             tags: ["Python", "React", "Tensorflow", "Pandas", "Numpy", 'NLP'],
             description: "This is a bot that can help do anything automated on the web like conducting interviews for candidates, scrape the web faster, retrieve code answers from github, stackoverflow and google, can help you locate places on the map, check my Linkedin Page for a the Demos for this app, it was built using Natural Language Processing",
             youtube: "https://www.linkedin.com/posts/joshua-akinleye-9895b61ab_model-accuracy-improved-activity-6885201362028756992-SiRS?utm_source=share&utm_medium=member_desktop",
+        },
+
+        {
+            img: LLM,
+            name: "LLM GPT Web Application",
+            github: "https://github.com/Akinleyejoshua/llm",
+            link: null,
+            tags: ["Python", "LLM", "GPT", "Nexts", "Tensorflow", "Pandas", "Numpy", 'NLP'],
+            description: "The GPT LLM is at it early stage and can only generate dialog texts",
+            youtube: "https://www.linkedin.com/posts/joshua-akinleye-9895b61ab_llm-chatgpt-gpt-activity-7189210399005675520-DjFx?utm_source=share&utm_medium=member_desktop",
         }
 
     ]
@@ -161,7 +172,7 @@ export const Projects = () => {
 
                         </div>
                         <div className="actions">
-                            {item?.link !== null && <a target="blank" title="Visit" href={item?.link}><AiOutlineLink /></a>}
+                            <a target="blank" title="Visit" href={item?.link}><AiOutlineLink /></a>
                             {item?.github !== null && <a title="Repository" target="blank" href={item?.github}><AiOutlineGithub /></a>}
                             {item?.youtube !== undefined && <a title="Youtube DEMO" target="blank" href={item?.youtube}><AiOutlineYoutube /></a>}
 
