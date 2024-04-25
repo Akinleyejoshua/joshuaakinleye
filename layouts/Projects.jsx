@@ -81,7 +81,7 @@ export const Projects = () => {
             img: LLM,
             name: "LLM GPT Web Application",
             github: "https://github.com/Akinleyejoshua/llm",
-            link: null,
+            link: "https://ultra-gpt-llm.vercel.app/",
             tags: ["Python", "LLM", "GPT", "Nexts", "Tensorflow", "Pandas", "Numpy", 'NLP'],
             description: "The GPT LLM is at it early stage and can only generate dialog texts",
             youtube: "https://www.linkedin.com/posts/joshua-akinleye-9895b61ab_llm-chatgpt-gpt-activity-7189210399005675520-DjFx?utm_source=share&utm_medium=member_desktop",
