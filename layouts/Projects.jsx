@@ -8,6 +8,7 @@ import Face from "@/src/img/face.jpg";
 import Blnr from "@/src/img/brnl.png";
 import Bot from "@/src/img/bot.png";
 import LLM from "@/src/img/llm.png";
+import UltraGPT from "@/src/img/ultragpt.png"
 
 export const Projects = () => {
     const webprojects = [
@@ -51,6 +52,16 @@ export const Projects = () => {
 
     const mlprojects = [
         {
+            img: UltraGPT,
+            name: "Ultra GPT (Virtual H.R)",
+            github: null,
+            link: "https://ultragpt-pro.vercel.app/",
+            tags: ["Nextjs", "LLM", "Gemimi", "GPT"],
+            description: "This AI App has many functions which include Virtual H.R, It can Interview you for a Job, Evalute you and send your data to Recruiting Team for review",
+            youtube: "https://youtu.be/nMqEkBG3qpw"
+
+        },
+        {
             img: Covid,
             name: "Covid 19 Diagnostics",
             github: null,
@@ -81,7 +92,7 @@ export const Projects = () => {
             img: LLM,
             name: "LLM GPT Web Application",
             github: "https://github.com/Akinleyejoshua/llm",
-            link: "https://ultra-gpt-llm.vercel.app/",
+            link: null,
             tags: ["Python", "LLM", "GPT", "Nexts", "Tensorflow", "Pandas", "Numpy", 'NLP'],
             description: "The GPT LLM is at it early stage and can only generate dialog texts",
             youtube: "https://www.linkedin.com/posts/joshua-akinleye-9895b61ab_llm-chatgpt-gpt-activity-7189210399005675520-DjFx?utm_source=share&utm_medium=member_desktop",
@@ -126,7 +137,8 @@ export const Projects = () => {
 
                         </div>
                         <div className="actions">
-                            <a target="blank" title="Visit" href={item?.link}><AiOutlineLink /></a>
+                            {item?.link !== null && <a target="blank" title="Visit" href={item?.link}><AiOutlineLink /></a>}
+
                             {item?.github !== null && <a title="Repository" target="blank" href={item?.github}><AiOutlineGithub /></a>}
                             {item?.youtube !== undefined && <a title="Youtube DEMO" target="blank" href={item?.youtube}><AiOutlineYoutube /></a>}
                         </div>
@@ -172,7 +184,7 @@ export const Projects = () => {
 
                         </div>
                         <div className="actions">
-                            <a target="blank" title="Visit" href={item?.link}><AiOutlineLink /></a>
+                            {item?.link !== null && <a target="blank" title="Visit" href={item?.link}><AiOutlineLink /></a>}
                             {item?.github !== null && <a title="Repository" target="blank" href={item?.github}><AiOutlineGithub /></a>}
                             {item?.youtube !== undefined && <a title="Youtube DEMO" target="blank" href={item?.youtube}><AiOutlineYoutube /></a>}
 
