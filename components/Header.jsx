@@ -10,11 +10,12 @@ export const Header = ({checkNavBar}) => {
     const navlinks = useRef(0);
 
     useEffect(() => {
+        let headerTop = header.current;
         window.onscroll = () => {
             if (window?.scrollY > 500){
-                header.current.className = "ontop"
+                headerTop.className = "ontop"
             } else {
-                header.current.className = ""
+                headerTop.className = ""
 
             }
         }
