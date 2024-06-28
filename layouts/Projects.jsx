@@ -9,9 +9,22 @@ import Blnr from "@/src/img/brnl.png";
 import Bot from "@/src/img/bot.png";
 import LLM from "@/src/img/llm.png";
 import UltraGPT from "@/src/img/ultragpt.png"
+import Blogrr from "@/src/img/blogrr.png"
 
 export const Projects = () => {
     const webprojects = [
+        {
+            img: Blogrr,
+            name: "My Social Media App (Blogrr)",
+            github: null,
+            link: "https://blogrpro.vercel.app/home",
+            tags: ["Nextjs", "MongoDB", "Reactjs", "API"],
+            description: `This is a powerful social media website were 
+            powerful people engage, create & publish & edit, share creative contents, visit the app 
+            and explore everything while tesing it features which includes
+             - following - liking - drafting - commenting - posting - editing ...etc`,
+            youtube: "https://www.youtube.com/watch?v=Gs067U0rISs",
+        },
         {
             img: Blnr,
             name: "BLNR Backend (Open Source Project)",
@@ -24,7 +37,7 @@ export const Projects = () => {
             img: Twitter,
             name: "Twitter/X Clone",
             github: "https://github.com/Akinleyejoshua/twitter-clone-client",
-            link: "https://x-clone-client-vercel.app",
+            link: "http://x-clone-client-vercel.app",
             tags: ["Nextjs", "TypeScript"],
             description: "This Web Application was built using Nextjs Framework, it comprises of the frontend only",
             youtube: "https://www.linkedin.com/posts/joshua-akinleye-9895b61ab_reactjs-nextjs-node-activity-7114638639124406272-cBWf?utm_source=share&utm_medium=member_desktop",
@@ -34,7 +47,7 @@ export const Projects = () => {
             img: Store,
             name: "WooCommerce Web App ",
             github: "https://github.com/Akinleyejoshua/uni-store",
-            link: "https://uni-store.vercel.app",
+            link: "http://uni-store.vercel.app",
             tags: ["Nextjs", "MongoDB", "Nodejs", "API"],
             description: "This Web Application was built using Nextjs and Nodejs Server, it comprises of frontend and backend, in this web app, you can add a product, list the products for buyers, add to cart, checkout and wait for delivery, it also have admin dashboard to monitor products and sales revenue",
             youtube: "https://www.linkedin.com/posts/joshua-akinleye-9895b61ab_ecommerce-onlineshopping-marketing-activity-7076451893803122688-5tlH?utm_source=share&utm_medium=member_desktop",
@@ -43,7 +56,7 @@ export const Projects = () => {
             img: Screen,
             name: "SaaS for Screen Sharing",
             github: null,
-            link: "https://screen-view.vercel.app",
+            link: "http://screen-view.vercel.app",
             tags: ["Nextjs", "Express", "MongoDB", "API", "Nodejs"],
             description: "This Web Application was built using Nextjs, Nodejs, Express, MongoDB, this app can help you share streamed video content, uploading the content to your own personal cloud storage and sharing to any part of the world, you can also check my Youtube Channel for DEMO video of this app and others",
             youtube: "https://www.youtube.com/watch?v=Uhv6u8UYnxA&t=9s"
@@ -92,7 +105,7 @@ export const Projects = () => {
             img: LLM,
             name: "LLM GPT Web Application",
             github: "https://github.com/Akinleyejoshua/llm",
-            link: null,
+            link: "https://ultra-gpt-llm.vercel.app/",
             tags: ["Python", "LLM", "GPT", "Nexts", "Tensorflow", "Pandas", "Numpy", 'NLP'],
             description: "The GPT LLM is at it early stage and can only generate dialog texts",
             youtube: "https://www.linkedin.com/posts/joshua-akinleye-9895b61ab_llm-chatgpt-gpt-activity-7189210399005675520-DjFx?utm_source=share&utm_medium=member_desktop",
@@ -138,7 +151,6 @@ export const Projects = () => {
                         </div>
                         <div className="actions">
                             {item?.link !== null && <a target="blank" title="Visit" href={item?.link}><AiOutlineLink /></a>}
-
                             {item?.github !== null && <a title="Repository" target="blank" href={item?.github}><AiOutlineGithub /></a>}
                             {item?.youtube !== undefined && <a title="Youtube DEMO" target="blank" href={item?.youtube}><AiOutlineYoutube /></a>}
                         </div>
