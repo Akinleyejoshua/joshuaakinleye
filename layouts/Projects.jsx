@@ -37,7 +37,7 @@ export const Projects = () => {
             img: Twitter,
             name: "Twitter/X Clone",
             github: "https://github.com/Akinleyejoshua/twitter-clone-client",
-            link: "http://x-clone-client-vercel.app",
+            link: "http://x-clone-client.vercel.app",
             tags: ["Nextjs", "TypeScript"],
             description: "This Web Application was built using Nextjs Framework, it comprises of the frontend only",
             youtube: "https://www.linkedin.com/posts/joshua-akinleye-9895b61ab_reactjs-nextjs-node-activity-7114638639124406272-cBWf?utm_source=share&utm_medium=member_desktop",
@@ -150,9 +150,9 @@ export const Projects = () => {
 
                         </div>
                         <div className="actions">
-                            {item?.link !== null && <a target="blank" title="Visit" href={item?.link}><AiOutlineLink /></a>}
-                            {item?.github !== null && <a title="Repository" target="blank" href={item?.github}><AiOutlineGithub /></a>}
-                            {item?.youtube !== undefined && <a title="Youtube DEMO" target="blank" href={item?.youtube}><AiOutlineYoutube /></a>}
+                            {item?.link !== null && <a target="_blank" title="Visit" href={item?.link}><AiOutlineLink /></a>}
+                            {item?.github !== null && <a title="Repository" target="_blank" href={item?.github}><AiOutlineGithub /></a>}
+                            {item?.youtube !== undefined && <a title="Youtube DEMO" target="_blank" href={item?.youtube}><AiOutlineYoutube /></a>}
                         </div>
                     </div>
                 </div>
@@ -196,9 +196,9 @@ export const Projects = () => {
 
                         </div>
                         <div className="actions">
-                            {item?.link !== null && <a target="blank" title="Visit" href={item?.link}><AiOutlineLink /></a>}
-                            {item?.github !== null && <a title="Repository" target="blank" href={item?.github}><AiOutlineGithub /></a>}
-                            {item?.youtube !== undefined && <a title="Youtube DEMO" target="blank" href={item?.youtube}><AiOutlineYoutube /></a>}
+                            {item?.link !== null && <a target="_blank" title="Visit" href={item?.link}><AiOutlineLink /></a>}
+                            {item?.github !== null && <a title="Repository" target="_blank" href={item?.github}><AiOutlineGithub /></a>}
+                            {item?.youtube !== undefined && <a title="Youtube DEMO" target="_blank" href={item?.youtube}><AiOutlineYoutube /></a>}
 
                         </div>
                     </div>
