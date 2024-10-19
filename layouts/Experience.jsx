@@ -13,7 +13,7 @@ export const Experience = () => {
             time: "2021 - 2022"
         },
         {
-            name: "Smart Technique",
+            name: "Smartecniqs",
             role: "Conversational A.I Scientist (Data Science)",
             time: "2022 - 2023"
         },
