@@ -32,7 +32,9 @@ export const Projects = () => {
             github: "https://github.com/Akinleyejoshua/webRTC-Nextjs/tree/main",
             link: "https://ultrashare.vercel.app/",
             tags: ["Nextjs", "Socket.io", "Reactjs", "API", "WebRTC"],
-            description: `This is a Live Streaming App that enables users to Video Call, Share Screen in Real Time.`,
+            description: `This is a Live Streaming App that enables users to Video Call, Share Screen in Real Time.
+            create a room(add name: optional), select media and start streaming, copy link and share to target users & enjoy. 
+            `,
             youtube: undefined,
         },
         {
