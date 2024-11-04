@@ -35,7 +35,7 @@ export const Projects = () => {
             description: `This is a Live Streaming App that enables users to Video Call, Share Screen in Real Time.
             create a room(add name: optional), select media and start streaming, copy link and share to target users & enjoy. 
             `,
-            youtube: undefined,
+            youtube: "https://youtu.be/4sWLgqt60X4?si=Pa_RwDpFsY_K4PTc",
         },
         {
             img: Blnr,
