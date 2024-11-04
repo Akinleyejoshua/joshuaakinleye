@@ -9,7 +9,8 @@ import Blnr from "@/src/img/brnl.png";
 import Bot from "@/src/img/bot.png";
 import LLM from "@/src/img/llm.png";
 import UltraGPT from "@/src/img/ultragpt.png"
-import Blogrr from "@/src/img/blogrr.png"
+import Blogrr from "@/src/img/blogrr.png";
+import SS from "@/src/img/screenshare.png";
 
 export const Projects = () => {
     const webprojects = [
@@ -24,6 +25,15 @@ export const Projects = () => {
             and explore everything while tesing it features which includes
              - following - liking - drafting - commenting - posting - editing ...etc`,
             youtube: "https://www.youtube.com/watch?v=Gs067U0rISs",
+        },
+        {
+            img: SS,
+            name: "Ultra Share (WebRTC)",
+            github: "https://github.com/Akinleyejoshua/webRTC-Nextjs/tree/main",
+            link: "https://ultrashare.vercel.app/",
+            tags: ["Nextjs", "Socket.io", "Reactjs", "API", "WebRTC"],
+            description: `This is a Live Streaming App that enables users to Video Call, Share Screen in Real Time.`,
+            youtube: undefined,
         },
         {
             img: Blnr,
