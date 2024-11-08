@@ -28,14 +28,14 @@ export const Projects = () => {
         },
         {
             img: SS,
-            name: "Ultra Share (WebRTC)",
+            name: "Ultra Share Pro (WebRTC)",
             github: "https://github.com/Akinleyejoshua/webRTC-Nextjs/tree/main",
-            link: "https://ultrashare.vercel.app/",
+            link: "https://ultrasharepro.vercel.app/",
             tags: ["Nextjs", "Socket.io", "Reactjs", "API", "WebRTC"],
             description: `This is a Live Streaming App that enables users to Video Call, Share Screen in Real Time.
             create a room(add name: optional), select media and start streaming, copy link and share to target users & enjoy. 
             `,
-            youtube: "https://youtu.be/4sWLgqt60X4?si=Pa_RwDpFsY_K4PTc",
+            youtube: "https://www.linkedin.com/posts/joshua-akinleye-9895b61ab_buildinpublic-100daysofcode-activity-7260689036183228416-Lw2s?utm_source=share&utm_medium=member_desktop",
         },
         {
             img: Blnr,
