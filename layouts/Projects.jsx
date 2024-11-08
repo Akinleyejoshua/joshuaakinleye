@@ -52,12 +52,12 @@ export const Projects = () => {
             link: "http://x-clone-client.vercel.app",
             tags: ["Nextjs", "TypeScript"],
             description: "This Web Application was built using Nextjs Framework, it comprises of the frontend only",
-            youtube: "https://www.linkedin.com/posts/joshua-akinleye-9895b61ab_reactjs-nextjs-node-activity-7114638639124406272-cBWf?utm_source=share&utm_medium=member_desktop",
+            youtube: "https://youtu.be/mGwZ0N2ZCKo?si=l1IdUNk7_pgtLCJp",
         },
 
         {
             img: Store,
-            name: "WooCommerce Web App ",
+            name: "WooCommerce Dropshipping Web App",
             github: "https://github.com/Akinleyejoshua/uni-store",
             link: "http://uni-store.vercel.app",
             tags: ["Nextjs", "MongoDB", "Nodejs", "API"],
