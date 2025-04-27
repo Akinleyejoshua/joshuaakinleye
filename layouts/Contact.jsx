@@ -29,7 +29,7 @@ export const Contact = () => {
             <a
               title="Linkedin"
               target="blank"
-              href="https://www.linkedin.com/in/joshua-akinleye-9895b61ab/"
+              href="https://www.linkedin.com/in/joshua-a-9895b61ab/"
             >
               <AiOutlineLinkedin />
             </a>
