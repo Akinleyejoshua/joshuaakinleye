@@ -22,7 +22,7 @@ export const Contact = () => {
             <a
               title="Twitter"
               target="blank"
-              href="https://twitter.com/Joshuaakinleye4/media"
+              href="https://x.com/Joshuaakinleye4/media"
             >
               <AiOutlineTwitter />
             </a>
